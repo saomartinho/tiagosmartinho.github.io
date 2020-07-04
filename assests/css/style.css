@@ -4,6 +4,51 @@
  ----------------------------------------- */
 @import '../fonts/montserrat/montserrat.css';
 
+* {
+    box-sizing: border-box;
+}
+
 body {
+    color: #72f1b8;
     font-family: 'Montserrat';
+    margin: 0; /* TODO: remove when have reset */
+}
+ /* 72f1b8 */
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: #f1f1f1;
+}
+
+@media ( prefers-color-scheme: dark ) {
+    .portfolio {
+        background: #262335;
+    }
+}
+
+.portfolio__name {
+    font-size: 160px;
+    line-height: 180px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.footer__link {
+    display: inline-block;
+    color: #72f1b8;
+    text-decoration: none; /* TODO: remove when have reset */
+}
+
+.footer__link:not(:last-child) {
+    margin-right: 20px;
 }
