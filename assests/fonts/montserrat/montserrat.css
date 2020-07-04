@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./montserratRegular.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat'), local('Montserrat-Regular'), local('Montserrat Regular'),
+        url('./montserratRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./montserratRegular.otf') format('opentype'), /* Open Type Font */
+        url('./montserratRegular.svg') format('svg'), /* Legacy iOS */
+        url('./montserratRegular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./montserratRegular.woff') format('woff'), /* Modern Browsers */
+        url('./montserratRegular.woff2') format('woff2'); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

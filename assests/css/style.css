@@ -1,0 +1,9 @@
+/* ---------------------------------------
+ | 0 - import fonts
+ | 1 - geral
+ ----------------------------------------- */
+@import '../fonts/montserrat/montserrat.css';
+
+body {
+    font-family: 'Montserrat';
+}
